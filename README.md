@@ -1,44 +1,25 @@
-Content Generator for Sketch
+Content Generator for Sketch【中文版】
 ============================
 
-Sketch generator allows you quickly create dummy data such as avatars, names, geo location data etc.
+Sketch generator让你快速在创建内容占位符，比如头像、封面、人名、地理位置等。
+
+本Repo在[原版Content Generator for Sketch](https://github.com/timuric/Content-generator-sketch-plugin)的基础上做了一些修改，能更好地适配中文内容。
 
 ## Demo
-#####Generating pictures
+#####生成图片和人名
 
-![Generating thumbnails](https://raw.githubusercontent.com/timuric/Content-generator-for-sketch-app/master/tutorial/userpics.gif)
+![Generating thumbnails](https://raw.githubusercontent.com/isux/Content-generator-for-sketch-app/master/tutorial/album-names.gif)
 
-#####Generating names
+## 增加自定义图片
 
-![Generating names](https://raw.githubusercontent.com/timuric/Content-generator-for-sketch-app/master/tutorial/names.gif)
+1. 在Sketch app中打开`Plugins > Reveal Plugins folder...`
+2. 打开Content Generator plugin目录
+3. 把你的图片放在这个目录： Data > Photos > my-photos
 
-#####Generating dummy text
-
-![Generating text](https://raw.githubusercontent.com/timuric/Content-generator-for-sketch-app/master/tutorial/lorem.gif)
-
-#####Generating strings
-![custom string](https://cloud.githubusercontent.com/assets/5709624/8092928/c18d6d76-0fbd-11e5-962d-417165cc1a2d.gif)
-
-You can create a custom string by combining any of these options:
-- plain text (example: banana)
-- random number from range (example: [0-20] )
-- random item from an array (example: [banana~apple~grapes] )
-
-An example of a combined string: $[0-999],[10-99] [new~used~old]
-
-Which would result in "$321,34 old" or "$12,75 new"
-
-
-## Adding custom images
-
-1. In Sketch app `Plugins > Reveal Plugins folder...`
-2. Open Content Generator plugin folder
-3. Add your photos to Data > Photos > my-photos
-
-## Installation
-1. Download Zip and Extract it to a folder
-2. In Sketch app `Plugins > Reveal Plugins folder...`
-3. Place the extracted folder directly to the Plugins folder (nesting might not work atm)
+## 安装
+1. 下载Zip文件，解压缩到一个目录
+2. Sketch app中打开 `Plugins > Reveal Plugins folder...`
+3. 把刚才解压的整个目录放在这个目录
 
 ## Upcoming features
 * More types of data
