@@ -8,7 +8,7 @@ Sketch generator让你快速在创建内容占位符，比如头像、封面、�
 ## Demo
 #####生成图片和人名
 
-![Generating thumbnails](https://raw.githubusercontent.com/isux/Content-generator-for-sketch-app/master/tutorial/album-names.gif)
+![Generating thumbnails](https://raw.githubusercontent.com/isux/Content-generator-sketch-plugin/master/tutorial/album-names.gif)
 
 ## 增加自定义图片
 
@@ -39,5 +39,3 @@ Any contribution is welcome, if you want to add more data sets or even your phot
 * User pics [Uifaces](http://uifaces.com/)
 * User names [Uinames](http://uinames.com/)
 * Random data [Mockaroo](http://mockaroo.com/)
-
-
